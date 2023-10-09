@@ -1,0 +1,16 @@
+1.(gdb) set args arg1 arg2 arg3
+2.gdb ./your_program
+(gdb) file your_source_code.c
+(gdb) break line_number
+(gdb) break function_name
+(gdb) break *0xaddress
+(gdb) break if variable_name == 42
+(gdb) break function_name if arg1 == value1 && arg2 == value2
+3.'n'
+4.'step'
+5.'continue'
+6.'print variable_name'
+  'print expression'
+7.'display variable_name'
+8.'info locals'
+9.'quit'
